@@ -1,3 +1,127 @@
-eval(function(d,e,a,c,b,f){b=function(a){return(a<e?"":b(parseInt(a/e)))+(35<(a%=e)?String.fromCharCode(a+29):a.toString(36))};if(!"".replace(/^/,String)){for(;a--;)f[b(a)]=c[a]||b(a);c=[function(a){return f[a]}];b=function(){return"\\w+"};a=1}for(;a--;)c[a]&&(d=d.replace(new RegExp("\\b"+b(a)+"\\b","g"),c[a]));return d}(";q O='',29='1W';1S(q i=0;i<12;i++)O+=29.X(D.N(D.J()*29.F));q 35=8,2F=10,2f=19,2v=5l,2w=B(t){q o=!1,i=B(){z(k.1h){k.2Q('2H',e);E.2Q('1V',e)}P{k.2R('37',e);E.2R('1X',e)}},e=B(){z(!o&&(k.1h||5o.2G==='1V'||k.2U==='2V')){o=!0;i();t()}};z(k.2U==='2V'){t()}P z(k.1h){k.1h('2H',e);E.1h('1V',e)}P{k.34('37',e);E.34('1X',e);q n=!1;2g{n=E.5u==5v&&k.1Z}2u(d){};z(n&&n.2t){(B a(){z(o)G;2g{n.2t('17')}2u(e){G 4T(a,50)};o=!0;i();t()})()}}};E[''+O+'']=(B(){q t={t$:'1W+/=',4W:B(e){q a='',r,n,o,c,s,l,i,d=0;e=t.e$(e);1b(d<e.F){r=e.14(d++);n=e.14(d++);o=e.14(d++);c=r>>2;s=(r&3)<<4|n>>4;l=(n&15)<<2|o>>6;i=o&63;z(2z(n)){l=i=64}P z(2z(o)){i=64};a=a+V.t$.X(c)+V.t$.X(s)+V.t$.X(l)+V.t$.X(i)};G a},11:B(e){q n='',r,l,c,s,d,i,a,o=0;e=e.1B(/[^A-4O-56-9\\+\\/\\=]/g,'');1b(o<e.F){s=V.t$.1I(e.X(o++));d=V.t$.1I(e.X(o++));i=V.t$.1I(e.X(o++));a=V.t$.1I(e.X(o++));r=s<<2|d>>4;l=(d&15)<<4|i>>2;c=(i&3)<<6|a;n=n+S.T(r);z(i!=64){n=n+S.T(l)};z(a!=64){n=n+S.T(c)}};n=t.n$(n);G n},e$:B(t){t=t.1B(/;/g,';');q n='';1S(q o=0;o<t.F;o++){q e=t.14(o);z(e<1t){n+=S.T(e)}P z(e>5a&&e<6e){n+=S.T(e>>6|6j);n+=S.T(e&63|1t)}P{n+=S.T(e>>12|2T);n+=S.T(e>>6&63|1t);n+=S.T(e&63|1t)}};G n},n$:B(t){q o='',e=0,n=6l=1v=0;1b(e<t.F){n=t.14(e);z(n<1t){o+=S.T(n);e++}P z(n>6n&&n<2T){1v=t.14(e+1);o+=S.T((n&31)<<6|1v&63);e+=2}P{1v=t.14(e+1);2x=t.14(e+2);o+=S.T((n&15)<<12|(1v&63)<<6|2x&63);e+=3}};G o}};q r=['6a==','5I','5J=','5K','5T','5W=','61=','62=','66','3H','3w=','3G=','5M','6b','4d=','4c','4b=','4a=','49=','48=','47=','46=','45==','44==','43==','42==','41=','3Z','3L','3Y','3X','3W','3V','3U==','3T=','3S=','3R=','3Q==','3P=','3O','3N=','3M=','4e==','40=','4f==','4w==','4K=','4J=','4I','4H==','4G==','4F','4E==','4D='],y=D.N(D.J()*r.F),Y=t.11(r[y]),w=Y,M=1,g='#4C',a='#2o',v='#2o',W='#4B',Z='',b='4A!',p='4z 4y 4x 4v\\'4h 4u 3J 2X 2s. 4s\\'s 4r.  4q 4p\\'t?',f='4o 4n 4m 4l 4k 4j 4i 4g',s='I 3K, I 3c 3h 39 2X 2s.  3g 3f 3e!',o=0,u=0,n='3d.3b',l=0,C=e()+'.2O';B h(t){z(t)t=t.1T(t.F-15);q o=k.2S('3a');1S(q n=o.F;n--;){q e=S(o[n].1H);z(e)e=e.1T(e.F-15);z(e===t)G!0};G!1};B m(t){z(t)t=t.1T(t.F-15);q e=k.3j;x=0;1b(x<e.F){1o=e[x].1R;z(1o)1o=1o.1T(1o.F-15);z(1o===t)G!0;x++};G!1};B e(t){q n='',o='1W';t=t||30;1S(q e=0;e<t;e++)n+=o.X(D.N(D.J()*o.F));G n};B i(o){q i=['3F','3E==','3D','3C','2W','3B==','3A=','3z==','3y=','3x==','3v==','3k==','3u','3t','3s','2W'],a=['2I=','3r==','3q==','3p==','3o=','3n','3m=','3l=','2I=','4L','4t==','3i','5E==','69==','68==','67='];x=0;1Q=[];1b(x<o){c=i[D.N(D.J()*i.F)];d=a[D.N(D.J()*a.F)];c=t.11(c);d=t.11(d);q r=D.N(D.J()*2)+1;z(r==1){n='//'+c+'/'+d}P{n='//'+c+'/'+e(D.N(D.J()*20)+4)+'.2O'};1Q[x]=27 26();1Q[x].1Y=B(){q t=1;1b(t<7){t++}};1Q[x].1H=n;x++}};B Q(t){};G{2h:B(t,d){z(5Z k.K=='5Y'){G};q o='0.1',d=w,e=k.1e('1z');e.1l=d;e.j.1i='1P';e.j.17='-1p';e.j.U='-1p';e.j.1u='2a';e.j.13='5X';q r=k.K.36,a=D.N(r.F/2);z(a>15){q n=k.1e('2b');n.j.1i='1P';n.j.1u='1s';n.j.13='1s';n.j.U='-1p';n.j.17='-1p';k.K.5V(n,k.K.36[a]);n.1g(e);q i=k.1e('1z');i.1l='2Z';i.j.1i='1P';i.j.17='-1p';i.j.U='-1p';k.K.1g(i)}P{e.1l='2Z';k.K.1g(e)};l=5H(B(){z(e){t((e.1U==0),o);t((e.24==0),o);t((e.1L=='2k'),o);t((e.1O=='2D'),o);t((e.1K==0),o)}P{t(!0,o)}},28)},1G:B(e,c){z((e)&&(o==0)){o=1;E[''+O+''].1A();E[''+O+''].1G=B(){G}}P{q f=t.11('5S'),u=k.5R(f);z((u)&&(o==0)){z((2F%3)==0){q l='5Q=';l=t.11(l);z(h(l)){z(u.1F.1B(/\\s/g,'').F==0){o=1;E[''+O+''].1A()}}}};q y=!1;z(o==0){z((2f%3)==0){z(!E[''+O+''].2y){q r=['5P==','5O==','5N=','4M=','5L='],m=r.F,d=r[D.N(D.J()*m)],a=d;1b(d==a){a=r[D.N(D.J()*m)]};d=t.11(d);a=t.11(a);i(D.N(D.J()*2)+1);q n=27 26(),s=27 26();n.1Y=B(){i(D.N(D.J()*2)+1);s.1H=a;i(D.N(D.J()*2)+1)};s.1Y=B(){o=1;i(D.N(D.J()*3)+1);E[''+O+''].1A()};n.1H=d;z((2v%3)==0){n.1X=B(){z((n.13<8)&&(n.13>0)){E[''+O+''].1A()}}};i(D.N(D.J()*3)+1);E[''+O+''].2y=!0};E[''+O+''].1G=B(){G}}}}},1A:B(){z(u==1){q L=2m.6x('2j');z(L>0){G!0}P{2m.6w('2j',(D.J()+1)*28)}};q h='6u==';h=t.11(h);z(!m(h)){q c=k.1e('6s');c.21('6r','6q');c.21('2G','1n/6p');c.21('1R',h);k.2S('6o')[0].1g(c)};6m(l);k.K.1F='';k.K.j.16+='R:1s !1a';k.K.j.16+='1D:1s !1a';q C=k.1Z.24||E.2Y||k.K.24,y=E.6k||k.K.1U||k.1Z.1U,d=k.1e('1z'),M=e();d.1l=M;d.j.1i='2A';d.j.17='0';d.j.U='0';d.j.13=C+'1w';d.j.1u=y+'1w';d.j.2q=g;d.j.23='6i';k.K.1g(d);q r='<a 1R=\"6h://6g.6f\" j=\"H-1f:10.5U;H-1k:1j-1m;1d:5G;\">5f 5F 5c</a>';r=r.1B('5b',e());r=r.1B('59',e());q i=k.1e('1z');i.1F=r;i.j.1i='1P';i.j.1C='1J';i.j.17='1J';i.j.13='58';i.j.1u='57';i.j.23='2p';i.j.1K='.6';i.j.2l='2e';i.1h('54',B(){n=n.53('').52().4Z('');E.2i.1R='//'+n});k.1E(M).1g(i);q o=k.1e('1z'),Q=e();o.1l=Q;o.j.1i='2A';o.j.U=y/7+'1w';o.j.4X=C-4V+'1w';o.j.4U=y/3.5+'1w';o.j.2q='#4S';o.j.23='2p';o.j.16+='H-1k: \"4R 4Q\", 1x, 1y, 1j-1m !1a';o.j.16+='4P-1u: 5d !1a';o.j.16+='H-1f: 51 !1a';o.j.16+='1n-1q: 1r !1a';o.j.16+='1D: 5e !1a';o.j.1L+='2M';o.j.38='1J';o.j.5s='1J';o.j.5C='2E';k.K.1g(o);o.j.5B='1s 5z 5y -5x 5w(0,0,0,0.3)';o.j.1O='2r';q w=30,Y=22,Z=18,x=18;z((E.2Y<32)||(5t.13<32)){o.j.33='50%';o.j.16+='H-1f: 5g !1a';o.j.38='5q;';i.j.33='65%';q w=22,Y=18,Z=12,x=12};o.1F='<2P j=\"1d:#5n;H-1f:'+w+'1M;1d:'+a+';H-1k:1x, 1y, 1j-1m;H-1N:5m;R-U:1c;R-1C:1c;1n-1q:1r;\">'+b+'</2P><2N j=\"H-1f:'+Y+'1M;H-1N:5k;H-1k:1x, 1y, 1j-1m;1d:'+a+';R-U:1c;R-1C:1c;1n-1q:1r;\">'+p+'</2N><5j j=\" 1L: 2M;R-U: 0.2K;R-1C: 0.2K;R-17: 2d;R-2J: 2d; 2C:5i 5h #4N; 13: 25%;1n-1q:1r;\"><p j=\"H-1k:1x, 1y, 1j-1m;H-1N:2B;H-1f:'+Z+'1M;1d:'+a+';1n-1q:1r;\">'+f+'</p><p j=\"R-U:5r;\"><2b 5A=\"V.j.1K=.9;\" 5D=\"V.j.1K=1;\"  1l=\"'+e()+'\" j=\"2l:2e;H-1f:'+x+'1M;H-1k:1x, 1y, 1j-1m; H-1N:2B;2C-4Y:2E;1D:1c;55-1d:'+v+';1d:'+W+';1D-17:2a;1D-2J:2a;13:60%;R:2d;R-U:1c;R-1C:1c;\" 6t=\"E.2i.6v();\">'+s+'</2b></p>'}}})();E.2L=B(t,e){q n=6y.6d,o=E.6c,a=n(),i,d=B(){n()-a<e?i||o(d):t()};o(d);G{3I:B(){i=1}}};q 2n;z(k.K){k.K.j.1O='2r'};2w(B(){z(k.1E('2c')){k.1E('2c').j.1O='2k';k.1E('2c').j.1L='2D'};2n=E.2L(B(){E[''+O+''].2h(E[''+O+''].1G,E[''+O+''].5p)},35*28)});",
-62,407,"                   style document      var         if  function  Math window length return font  random body   floor ZPzPJdZCtGis else  margin String fromCharCode top this  charAt    decode  width charCodeAt  cssText left   important while 10px color createElement size appendChild addEventListener position sans family id serif text thisurl 5000px align center 0px 128 height c2 px Helvetica geneva DIV xMpXCYbBAu replace bottom padding getElementById innerHTML hwKIsSuPch src indexOf 30px opacity display pt weight visibility absolute spimg href for substr clientHeight load ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 onload onerror documentElement  setAttribute  zIndex clientWidth  Image new 1000 BSmWqWbdNi 60px div babasbmsgx auto pointer eaPRGPcoBc try dUWTyPbWdZ location babn hidden cursor sessionStorage zTMFakILaL 22aaff 10000 backgroundColor visible blocker doScroll catch aFXWywMzsQ TkPETixnXA c3 ranAlready isNaN fixed 300 border none 15px wymxNfWxBV type DOMContentLoaded ZmF2aWNvbi5pY28 right 5em unboSzKvYH block h1 jpg h3 removeEventListener detachEvent getElementsByTagName 224 readyState complete cGFydG5lcmFkcy55c20ueWFob28uY29t ad innerWidth banner_ad   640 zoom attachEvent pATEyvDzXd childNodes onreadystatechange marginLeft my script kcolbdakcolb have moc in me Let disabled ZmF2aWNvbjEuaWNv styleSheets YWRzLnp5bmdhLmNvbQ Q0ROLTMzNC0xMDktMTM3eC1hZC1iYW5uZXI YWRjbGllbnQtMDAyMTQ3LWhvc3QxLWJhbm5lci1hZC5qcGc MTM2N19hZC1jbGllbnRJRDI0NjQuanBn c2t5c2NyYXBlci5qcGc NzIweDkwLmpwZw NDY4eDYwLmpwZw YmFubmVyLmpwZw YXMuaW5ib3guY29t YWRzYXR0LmVzcG4uc3RhcndhdmUuY29t YWRzYXR0LmFiY25ld3Muc3RhcndhdmUuY29t YWRzLnlhaG9vLmNvbQ YWQtY29udGFpbmVyLTE cHJvbW90ZS5wYWlyLmNvbQ Y2FzLmNsaWNrYWJpbGl0eS5jb20 YWR2ZXJ0aXNpbmcuYW9sLmNvbQ YWdvZGEubmV0L2Jhbm5lcnM YS5saXZlc3BvcnRtZWRpYS5ldQ YWQuZm94bmV0d29ya3MuY29t anVpY3lhZHMuY29t YWQubWFpbC5ydQ YWRuLmViYXkuY29t YWQtY29udGFpbmVyLTI YWQtY29udGFpbmVy clear an understand RGl2QWQy YWRiYW5uZXI YWRCYW5uZXI YmFubmVyX2Fk YWRUZWFzZXI Z2xpbmtzd3JhcHBlcg QWRDb250YWluZXI QWRCb3gxNjA QWREaXY QWRJbWFnZQ RGl2QWRD RGl2QWRC RGl2QWRB RGl2QWQz RGl2QWQx YmFubmVyYWQ RGl2QWQ QWRzX2dvb2dsZV8wNA QWRzX2dvb2dsZV8wMw QWRzX2dvb2dsZV8wMg QWRzX2dvb2dsZV8wMQ QWRMYXllcjI QWRMYXllcjE QWRGcmFtZTQ QWRGcmFtZTM QWRGcmFtZTI QWRGcmFtZTE QWRBcmVh QWQ3Mjh4OTA YWRBZA IGFkX2JveA website re our browsing continue to it disable plz doesn Who okay That c3F1YXJlLWFkLnBuZw using you YWRfY2hhbm5lbA like looks It Welcome FFFFFF ffffff c3BvbnNvcmVkX2xpbms b3V0YnJhaW4tcGFpZA Z29vZ2xlX2Fk YWRzZW5zZQ cG9wdXBhZA YWRzbG90 YmFubmVyaWQ YWRzZXJ2ZXI YWQtbGFyZ2UucG5n Ly9hZHMudHdpdHRlci5jb20vZmF2aWNvbi5pY28 CCC Za line Black Arial fff setTimeout minHeight 120 encode minWidth radius join  16pt reverse split click background z0 40px 160px FILLVECTID2 127 FILLVECTID1 detection normal 12px simple 18pt solid 1px hr 500 82 200 999 event UefhydLPcs 45px 35px marginRight screen frameElement null rgba 8px 24px 14px onmouseover boxShadow borderRadius onmouseout YmFubmVyX2FkLmdpZg adblock black setInterval YWRCYW5uZXJXcmFw YWQtZnJhbWU YWQtaGVhZGVy Ly93d3cuZG91YmxlY2xpY2tieWdvb2dsZS5jb20vZmF2aWNvbi5pY28 QWQzMDB4MTQ1 Ly9hZHZlcnRpc2luZy55YWhvby5jb20vZmF2aWNvbi5pY28 Ly93d3cuZ3N0YXRpYy5jb20vYWR4L2RvdWJsZWNsaWNrLmljbw Ly93d3cuZ29vZ2xlLmNvbS9hZHNlbnNlL3N0YXJ0L2ltYWdlcy9mYXZpY29uLmljbw Ly9wYWdlYWQyLmdvb2dsZXN5bmRpY2F0aW9uLmNvbS9wYWdlYWQvanMvYWRzYnlnb29nbGUuanM querySelector aW5zLmFkc2J5Z29vZ2xl YWQtaW1n 5pt insertBefore YWQtaW5uZXI 468px undefined typeof  YWQtbGFiZWw YWQtbGI    YWQtZm9vdGVy YWR2ZXJ0aXNlbWVudC0zNDMyMy5qcGc d2lkZV9za3lzY3JhcGVyLmpwZw bGFyZ2VfYmFubmVyLmdpZg YWQtbGVmdA QWQzMDB4MjUw requestAnimationFrame now 2048 com blockadblock http 9999 192 innerHeight c1 clearInterval 191 head css stylesheet rel link onclick Ly95dWkueWFob29hcGlzLmNvbS8zLjE4LjEvYnVpbGQvY3NzcmVzZXQvY3NzcmVzZXQtbWluLmNzcw reload setItem getItem Date".split(" "),
-0,{}));
+
+/*GLOBAL SETTINGS, USER CAN CHANGE*/
+var MONTH_FORMAT = [, "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Seb", "Oct", "Nov", "Dec"];
+
+
+// JQuery hover event with timeout by Taufik Nurrohman - https://plus.google.com/108949996304093815163/about
+(function(c){c.fn.hoverTimeout=function(d,e,f,g){return this.each(function(){var a=null,b=c(this);b.hover(function(){clearTimeout(a);a=setTimeout(function(){e.call(b)},d)},function(){clearTimeout(a);a=setTimeout(function(){g.call(b)},f)})})}})(jQuery);
+
+// jquery replacetext plugin https://github.com/cowboy/jquery-replacetext
+(function(e){e.fn.replaceText=function(t,n,r){return this.each(function(){var i=this.firstChild,s,o,u=[];if(i){do{if(i.nodeType===3){s=i.nodeValue;o=s.replace(t,n);if(o!==s){if(!r&&/</.test(o)){e(i).before(o);u.push(i)}else{i.nodeValue=o}}}}while(i=i.nextSibling)}u.length&&e(u).remove()})}})(jQuery);
+
+
+
+// SelectNav.js - by: https://github.com/lukaszfiszer/selectnav.js - Adaptado por https://www.ideiasblog.com
+window.selectnav=function(){"use strict";var e=function(e,t){function c(e){var t;if(!e)e=window.event;if(e.target)t=e.target;else if(e.srcElement)t=e.srcElement;if(t.nodeType===3)t=t.parentNode;if(t.value)window.location.href=t.value}function h(e){var t=e.nodeName.toLowerCase();return t==="ul"||t==="ol"}function p(e){for(var t=1;document.getElementById("selectnav"+t);t++);return e?"selectnav"+t:"selectnav"+(t-1)}function d(e){a++;var t=e.children.length,n="",l="",c=a-1;if(!t){return}if(c){while(c--){l+=o}l+=" "}for(var v=0;v<t;v++){var m=e.children[v].children[0];if(typeof m!=="undefined"){var g=m.innerText||m.textContent;var y="";if(r){y=m.className.search(r)!==-1||m.parentNode.className.search(r)!==-1?f:""}if(i&&!y){y=m.href===document.URL?f:""}n+='<option value="'+m.href+'" '+y+">"+l+g+"</option>";if(s){var b=e.children[v].children[1];if(b&&h(b)){n+=d(b)}}}}if(a===1&&u){n='<option value="">'+u+"</option>"+n}if(a===1){n='<select class="selectnav" id="'+p(true)+'">'+n+"</select>"}a--;return n}e=document.getElementById(e);if(!e){return}if(!h(e)){return}if(!("insertAdjacentHTML"in window.document.documentElement)){return}document.documentElement.className+=" js";var n=t||{},r=n.activeclass||"active",i=typeof n.autoselect==="boolean"?n.autoselect:true,s=typeof n.nested==="boolean"?n.nested:true,o=n.indent||"→",u=n.label||"Menu",a=0,f=" selected ";e.insertAdjacentHTML("afterend",d(e));var l=document.getElementById(p());if(l.addEventListener){l.addEventListener("change",c)}if(l.attachEvent){l.attachEvent("onchange",c)}return l};return function(t,n){e(t,n)}}();$(document).ready(function(){selectnav('nav');selectnav('nav1');});
+
+// Tabslet jQuery plugin -  https://vdw.staytuned.gr
+(function($,window,undefined){$.fn.tabslet=function(options){var defaults={mouseevent:"click",attribute:"href",animation:false,autorotate:false,pauseonhover:true,delay:2000,active:1,controls:{prev:".prev",next:".next"}};var options=$.extend(defaults,options);return this.each(function(){var $this=$(this);options.mouseevent=$this.data("mouseevent")||options.mouseevent;options.attribute=$this.data("attribute")||options.attribute;options.animation=$this.data("animation")||options.animation;options.autorotate=$this.data("autorotate")||options.autorotate;options.pauseonhover=$this.data("pauseonhover")||options.pauseonhover;options.delay=$this.data("delay")||options.delay;options.active=$this.data("active")||options.active;$this.find("> div").hide();$this.find("> div").eq(options.active-1).show();$this.find("> ul li").eq(options.active-1).addClass("active");var fn=eval(function(){$(this).trigger("_before");$this.find("> ul li").removeClass("active");$(this).addClass("active");$this.find("> div").hide();var currentTab=$(this).find("a").attr(options.attribute);if(options.animation){$this.find(currentTab).animate({opacity:"show"},"slow",function(){$(this).trigger("_after")})}else{$this.find(currentTab).show();$(this).trigger("_after")}return false});var init=eval("$this.find('> ul li')."+options.mouseevent+"(fn)");init;var elements=$this.find("> ul li"),i=options.active-1;function forward(){i=++i%elements.length;options.mouseevent=="hover"?elements.eq(i).trigger("mouseover"):elements.eq(i).click();var t=setTimeout(forward,options.delay);$this.mouseover(function(){if(options.pauseonhover){clearTimeout(t)}})}if(options.autorotate){setTimeout(forward,0);if(options.pauseonhover){$this.on("mouseleave",function(){setTimeout(forward,1000)})}}function move(direction){if(direction=="forward"){i=++i%elements.length}if(direction=="backward"){i=--i%elements.length}elements.eq(i).click()}$this.find(options.controls.next).click(function(){move("forward")});$this.find(options.controls.prev).click(function(){move("backward")});$this.on("destroy",function(){$(this).removeData()})})};$(document).ready(function(){$('[data-toggle="tabslet"]').tabslet()})})(jQuery);
+
+// Simple Tab JQuery Plugin by Taufik Nurrohman - https://plus.google.com/108949996304093815163/about
+(function(a){a.fn.simplyTab=function(b){b=jQuery.extend({active:1,fx:null,showSpeed:400,hideSpeed:400,showEasing:null,hideEasing:null,show:function(){},hide:function(){},change:function(){}},b);return this.each(function(){var e=a(this),c=e.children("[data-tab]"),d=b.active-1;e.addClass("simplyTab").prepend('<ul class="wrap-tab"></ul>');c.addClass("content-tab").each(function(){a(this).hide();e.find(".wrap-tab").append('<li><a title="simple-tab" href="#">'+a(this).data("tab")+"</a></li>")}).eq(d).show();e.find(".wrap-tab a").on("click",function(){var f=a(this).parent().index();a(this).closest(".wrap-tab").find(".activeTab").removeClass("activeTab");a(this).addClass("activeTab");if(b.fx=="slide"){if(c.eq(f).is(":hidden")){c.slideUp(b.hideSpeed,b.hideEasing,function(){b.hide.call(e)}).eq(f).slideDown(b.showSpeed,b.showEasing,function(){b.show.call(e)})}}else{if(b.fx=="fade"){if(c.eq(f).is(":hidden")){c.hide().eq(f).fadeIn(b.showSpeed,b.showEasing,function(){b.show.call(e)})}}else{if(b.fx=="fancyslide"){if(c.eq(f).is(":hidden")){c.slideUp(b.hideSpeed,b.hideEasing,function(){b.hide.call(e)}).eq(f).delay(b.hideSpeed).slideDown(b.showSpeed,b.showEasing,function(){b.show.call(e)})}}else{if(c.eq(f).is(":hidden")){c.hide().eq(f).show()}}}}b.change.call(e);return false}).eq(d).addClass("activeTab")})}})(jQuery);
+
+// Main Scripts 
+$(document).ready(function()
+	{
+	$(".cmm-tabs").simplyTab(
+		{
+		active:1,fx:"fade",showSpeed:400,hideSpeed:400
+	}
+	);
+	$('.blogger-tab').append($('#comments'));
+	$(".cmm-tabs.simplyTab .wrap-tab").wrap("<div class='cmm-tabs-header'/>");
+	$('.cmm-tabs-header').prepend('<h3><h8>Post </h8>Comment<h9>s</h9></h3>')
+}
+);
+$(document).ready(function()
+	{
+	$("ul#sub-menu").parent("li").addClass("hasSub");
+	(jQuery)
+}
+);
+$(document).ready(function()
+	{
+	$('a[name="ads-post-in"]').before($('#ads-post10').html());
+	$('#ads-post10').html('')
+}
+);
+$(document).ready(function()
+	{
+	$(".sidebar-wrapper .widget h2").wrap("<div class='widget-title'/>");
+	$(".footer-sections .widget h2").wrap("<div class='widget-title'/>");
+	$(".index .post-outer,.archive .post-outer").each(function()
+		{
+		$(this).find(".block-image .thumb a").attr("style",function(e,t)
+			{
+			return t.replace("/default.jpg","/mqdefault.jpg")
+		}
+		).attr("style",function(e,t)
+			{
+			return t.replace("s72-c","s1600")
+		}
+		)
+	}
+	);
+	$(window).scroll(function()
+		{
+		if($(this).scrollTop()>200)
+			{
+			$('#back-to-top').fadeIn()
+		}
+		else
+			{
+			$('#back-to-top').fadeOut()
+		}
+	}
+	);
+	$('#back-to-top').hide().click(function()
+		{
+		$('html, body').animate(
+			{
+			scrollTop:0
+		}
+		,1000);
+		return false
+	}
+	);
+	var search=$('.search');
+	search.click(function(e)
+		{
+		e.preventDefault();
+		if(search.is('.active')&&$(e.target).is(search))
+			{
+			search.removeClass('active')
+		}
+		else
+			{
+			search.addClass('active');
+			search.find('input').focus()
+		}
+	}
+	);
+	$('body').click(function(e)
+		{
+		if(search.is('.active')&&!$(e.target).is('.search, .search form, .search input'))
+			{
+			search.removeClass('active')
+		}
+	}
+	);
+	(function(e)
+		{
+		var t=e("a.newer-link");
+		var n=e("a.older-link");
+		e.get(t.attr("href"),function(n)
+			{
+			t.html('<strong>Next</strong><span>'+e(n).find(".post h1.post-title").text()+"</span>")
+		}
+		,"html");
+		e.get(n.attr("href"),function(t)
+			{
+			n.html('<strong>Previous</strong><span>'+e(t).find(".post h1.post-title").text()+"</span>")
+		}
+		,"html")
+	}
+	)(jQuery)
+}
+);
